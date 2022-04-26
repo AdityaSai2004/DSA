@@ -8,6 +8,6 @@ int main(){
     cin>>t;
     int sit=(r*s);
     int bal=t-sit;
-    cout<<t<<bal-t;
+    cout<<t<<" "<<t-bal;
     return 0;
 }
