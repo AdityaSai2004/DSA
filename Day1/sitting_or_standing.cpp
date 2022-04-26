@@ -5,9 +5,9 @@ int main(){
     freopen("sitout.txt","w",stdout);
     int r,s,t;
     cin>>r>>s;
-    t=r*s;
-    int b;
-    cin>>b;
-    cout<<t<<b-t;
+    cin>>t;
+    int sit=(r*s);
+    int bal=t-sit;
+    cout<<t<<bal-t;
     return 0;
 }
